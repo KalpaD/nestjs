@@ -11,5 +11,19 @@ starting srach project
 npx ts-node-dev src/main.ts
 
 #### Chapter 2
+ Install nestjs cli tool
+ ```
+ npm install -g @nestjs/cli
+ ```
+
+ Generate module 
+ ```
+ nest generate module messages
+ ```
+ Generate controller within the same directory as the module
+ ```
+ nest generate controller messages/messages --flat
+ ```
+ 
 
 
